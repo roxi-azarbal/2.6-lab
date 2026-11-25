@@ -5,6 +5,7 @@ public class Triangle extends Polygon {
     public Triangle(int base, int height) {
         super(3);
         this.base = notNegative(base);
+        this.height = notNegative(height);
     }
 
     public Triangle() {
